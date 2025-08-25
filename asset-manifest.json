@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/softswiss/static/css/main.19594a8d.css",
-    "main.js": "/softswiss/static/js/main.ce8d2e50.js",
+    "main.css": "/softswiss/static/css/main.f69b69db.css",
+    "main.js": "/softswiss/static/js/main.67624058.js",
     "static/js/453.7934bfde.chunk.js": "/softswiss/static/js/453.7934bfde.chunk.js",
-    "static/media/hero.png": "/softswiss/static/media/hero.4aab6891aa0154909619.png",
-    "static/media/offer-2.png": "/softswiss/static/media/offer-2.465b897154e9993b945a.png",
-    "static/media/offer-4.png": "/softswiss/static/media/offer-4.69c8007cfc68cbbb8978.png",
-    "static/media/offer-1.png": "/softswiss/static/media/offer-1.9bb9cfbb562273ec5b4a.png",
-    "static/media/offer-3.png": "/softswiss/static/media/offer-3.aec212856bcda7f099ea.png",
-    "static/media/earth.png": "/softswiss/static/media/earth.647c22591b306902cd9a.png",
+    "static/media/offer-2.webp": "/softswiss/static/media/offer-2.644dd6b36c574596e76e.webp",
+    "static/media/offer-4.webp": "/softswiss/static/media/offer-4.6f85cf16b8699fe10a61.webp",
+    "static/media/offer-3.webp": "/softswiss/static/media/offer-3.6b7a0b38bbcbcf303807.webp",
+    "static/media/offer-1.webp": "/softswiss/static/media/offer-1.b17ec960e6a00fb92dc4.webp",
     "static/media/Lato-Regular.woff": "/softswiss/static/media/Lato-Regular.20cca9abc1b30ebf6d12.woff",
     "static/media/Lato-Bold.woff": "/softswiss/static/media/Lato-Bold.78c0192c25c917d9359a.woff",
     "static/media/Lato-Black.woff": "/softswiss/static/media/Lato-Black.4ff22031f4336ff44714.woff",
@@ -18,12 +16,12 @@
     "static/media/logo.svg": "/softswiss/static/media/logo.00c9e860cef1249e44f73b569a8d857f.svg",
     "static/media/cart.svg": "/softswiss/static/media/cart.4b6852f1500e34511188a4272a94b34a.svg",
     "index.html": "/softswiss/index.html",
-    "main.19594a8d.css.map": "/softswiss/static/css/main.19594a8d.css.map",
-    "main.ce8d2e50.js.map": "/softswiss/static/js/main.ce8d2e50.js.map",
+    "main.f69b69db.css.map": "/softswiss/static/css/main.f69b69db.css.map",
+    "main.67624058.js.map": "/softswiss/static/js/main.67624058.js.map",
     "453.7934bfde.chunk.js.map": "/softswiss/static/js/453.7934bfde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19594a8d.css",
-    "static/js/main.ce8d2e50.js"
+    "static/css/main.f69b69db.css",
+    "static/js/main.67624058.js"
   ]
 }
