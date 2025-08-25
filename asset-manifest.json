@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/softswiss/static/css/main.04a2c884.css",
+    "main.css": "/softswiss/static/css/main.bf480ccc.css",
     "main.js": "/softswiss/static/js/main.2be757d8.js",
     "static/js/453.7934bfde.chunk.js": "/softswiss/static/js/453.7934bfde.chunk.js",
     "static/media/offer-2.webp": "/softswiss/static/media/offer-2.644dd6b36c574596e76e.webp",
     "static/media/offer-4.webp": "/softswiss/static/media/offer-4.6f85cf16b8699fe10a61.webp",
     "static/media/offer-3.webp": "/softswiss/static/media/offer-3.6b7a0b38bbcbcf303807.webp",
     "static/media/offer-1.webp": "/softswiss/static/media/offer-1.b17ec960e6a00fb92dc4.webp",
-    "static/media/Lato-Regular.woff": "/softswiss/static/media/Lato-Regular.20cca9abc1b30ebf6d12.woff",
     "static/media/Lato-Bold.woff": "/softswiss/static/media/Lato-Bold.78c0192c25c917d9359a.woff",
     "static/media/Lato-Black.woff": "/softswiss/static/media/Lato-Black.4ff22031f4336ff44714.woff",
-    "static/media/Lato-Regular.woff2": "/softswiss/static/media/Lato-Regular.7bda85ac0ee258309c15.woff2",
     "static/media/Lato-Bold.woff2": "/softswiss/static/media/Lato-Bold.a37f84abc8d50ca4e478.woff2",
     "static/media/Lato-Black.woff2": "/softswiss/static/media/Lato-Black.2f161d5b12b7b968714d.woff2",
     "static/media/logo.svg": "/softswiss/static/media/logo.00c9e860cef1249e44f73b569a8d857f.svg",
     "static/media/cart.svg": "/softswiss/static/media/cart.4b6852f1500e34511188a4272a94b34a.svg",
     "index.html": "/softswiss/index.html",
-    "main.04a2c884.css.map": "/softswiss/static/css/main.04a2c884.css.map",
+    "main.bf480ccc.css.map": "/softswiss/static/css/main.bf480ccc.css.map",
     "main.2be757d8.js.map": "/softswiss/static/js/main.2be757d8.js.map",
     "453.7934bfde.chunk.js.map": "/softswiss/static/js/453.7934bfde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04a2c884.css",
+    "static/css/main.bf480ccc.css",
     "static/js/main.2be757d8.js"
   ]
 }
