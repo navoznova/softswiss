@@ -1,0 +1,96 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    inline-size: fit-content;
+    height: 33px;
+    padding: 14px 40px;
+    border: 2px solid transparent;
+    border-radius: $radius-pill;
+
+    background: $cta-bg;
+
+    transition:
+        background-color 0.2s ease, color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.12s ease;
+
+    &:hover {
+        color: $cta-text;
+        background: $cta-hover-bg;
+    }
+
+    &:active {
+        transform: translateY(1px);
+    }
+
+    &:focus-visible {
+        outline: 2px solid rgba($cta-bg, 0.6);
+        outline-offset: 3px;
+    }
+
+    @include font-lato-bold($size: 16px, $color: $cta-text);
+
+    @media (min-width: $breakpoint-tablet) {
+        height: 54px;
+
+        @include font-lato-bold($size: 22px, $color: $cta-text);
+    }
+
+    &--outline {
+        @include font-lato-bold($size: 16px, $color: $brand-yellow);
+
+        border-color: $cta-border;
+        color: $cta-bg;
+        background: transparent;
+
+        &:hover {
+            border-color: $cta-hover-bg;
+            color: $cta-hover-bg;
+            background: rgba($cta-bg, 0.08);
+        }
+
+        @media (min-width: $breakpoint-desktop) {
+            @include font-lato-bold($size: 22px, $color: $brand-yellow);
+        }
+    }
+
+    &--link {
+        @include font-lato-bold(14px, 1, $brand-yellow);
+
+        display: inline;
+
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+
+        background: transparent;
+
+        transition:
+            color 0.2s ease,
+            text-decoration-color 0.2s ease;
+
+        &:hover {
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+
+            color: $cta-hover-bg;
+
+            background: transparent;
+        }
+
+        @media (min-width: $breakpoint-tablet) {
+            @include font-lato-bold($size: 16px, $color: $brand-yellow);
+        }
+
+        @media (min-width: $breakpoint-desktop) {
+            @include font-lato-bold($size: 20px, $color: $brand-yellow);
+        }
+    }
+}

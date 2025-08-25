@@ -1,0 +1,44 @@
+@use "./variables" as *;
+
+@mixin responsive-height($mobile, $desktop, $breakpoint) {
+    min-height: $mobile;
+
+    @media (min-width: $breakpoint) {
+        min-height: $desktop;
+    }
+}
+
+@mixin font-lato-black($size: 18px, $line-height: 1, $color: $brand-white) {
+    font-family: Lato, sans-serif;
+    font-size: $size;
+    font-weight: 800;
+    line-height: $line-height;
+    color: $color;
+    text-decoration: none;
+}
+
+@mixin font-lato-bold($size: 18px, $line-height: 1, $color: $brand-white) {
+    font-family: Lato, sans-serif;
+    font-size: $size;
+    font-weight: 700;
+    line-height: $line-height;
+    color: $color;
+    text-decoration: none;
+}
+
+@mixin font-lato-regular($size: 18px, $line-height: 1, $color: $brand-white) {
+    font-family: Lato, sans-serif;
+    font-size: $size;
+    font-weight: 400;
+    line-height: $line-height;
+    color: $color;
+    text-decoration: none;
+}
+
+@mixin gradient-text($from: $brand-yellow, $to: $brand-pink) {
+    color: transparent;
+    background: linear-gradient(90deg, $from, $to);
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+  }
