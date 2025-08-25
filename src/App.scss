@@ -106,7 +106,7 @@
     background:
         linear-gradient(to bottom, rgb(0 0 0 / 0) 0%, #0f1420 100%),
         var(--earth-bg) center top -134px / auto no-repeat,
-        var(--hero-bg) center / cover no-repeat;
+        var(--hero-bg-mobile) center / cover no-repeat;
 
     &__inner {
         display: flex;

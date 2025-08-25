@@ -6,6 +6,7 @@ import { ReactComponent as CartIcon } from "./assets/icons/cart.svg";
 
 const heroUrl = `${process.env.PUBLIC_URL}/assets/images/hero.webp`;
 const earthUrl = `${process.env.PUBLIC_URL}/assets/images/earth.webp`;
+const heroUrlMobile = `${process.env.PUBLIC_URL}/assets/images/hero-mobile.webp`;
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -96,6 +97,7 @@ function App() {
         <section
           className="hero"
           style={{
+            "--hero-bg-mobile":  `url("${heroUrlMobile}")`,
             "--hero-bg": `url(${heroUrl})`,
             "--earth-bg": `url(${earthUrl})`,
           }}
