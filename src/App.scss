@@ -105,8 +105,8 @@
 
     background:
         linear-gradient(to bottom, rgb(0 0 0 / 0) 0%, #0f1420 100%),
-        url("./assets/images/earth.png") center top -134px / auto no-repeat,
-        url("./assets/images/hero.png") center / cover no-repeat;
+        var(--earth-bg) center top -134px / auto no-repeat,
+        var(--hero-bg) center / cover no-repeat;
 
     &__inner {
         display: flex;
@@ -137,8 +137,8 @@
     @media (min-width: $breakpoint-tablet) {
         justify-content: flex-start;
         background:
-            url("./assets/images/earth.png") right -100px top 56px / auto no-repeat,
-            url("./assets/images/hero.png") center / cover no-repeat;
+            var(--earth-bg) right -100px top 56px / auto no-repeat,
+            var(--hero-bg) center / cover no-repeat;
 
         &__inner {
             gap: 22px;
@@ -162,8 +162,8 @@
     @media (min-width: $breakpoint-desktop) {
         padding: 80px;
         background:
-            url("./assets/images/earth.png") right top 100px / auto no-repeat,
-            url("./assets/images/hero.png") center / cover no-repeat;
+            var(--earth-bg) right top 100px / auto no-repeat,
+            var(--hero-bg) center / cover no-repeat;
 
         &__inner {
             gap: 36px;
@@ -280,19 +280,19 @@
     }
 
     &--bg-offer-1 {
-        --card-bg: url("./assets/images/offer-1.png");
+        --card-bg: url("./assets/images/offer-1.webp");
     }
 
     &--bg-offer-2 {
-        --card-bg: url("./assets/images/offer-2.png");
+        --card-bg: url("./assets/images/offer-2.webp");
     }
 
     &--bg-offer-3 {
-        --card-bg: url("./assets/images/offer-3.png");
+        --card-bg: url("./assets/images/offer-3.webp");
     }
 
     &--bg-offer-4 {
-        --card-bg: url("./assets/images/offer-4.png");
+        --card-bg: url("./assets/images/offer-4.webp");
     }
 
     .btn {

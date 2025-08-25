@@ -4,6 +4,9 @@ import rocketUrl from "./assets/images/rocket.png";
 import { ReactComponent as Logo } from "./assets/icons/logo.svg";
 import { ReactComponent as CartIcon } from "./assets/icons/cart.svg";
 
+const heroUrl = `${process.env.PUBLIC_URL}/assets/images/hero.webp`;
+const earthUrl = `${process.env.PUBLIC_URL}/assets/images/earth.webp`;
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen((prev) => !prev);
@@ -90,7 +93,14 @@ function App() {
 
       <main>
         {/* Hero */}
-        <section className="hero" aria-labelledby="hero-title">
+        <section
+          className="hero"
+          style={{
+            "--hero-bg": `url(${heroUrl})`,
+            "--earth-bg": `url(${earthUrl})`,
+          }}
+          aria-labelledby="hero-title"
+        >
           <div className="hero__inner">
             <h1 id="hero-title" className="hero__title">
               Discover the vast <br /> expanses of{" "}
