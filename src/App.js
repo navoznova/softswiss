@@ -97,7 +97,7 @@ function App() {
         <section
           className="hero"
           style={{
-            "--hero-bg-mobile":  `url("${heroUrlMobile}")`,
+            "--hero-bg-mobile": `url("${heroUrlMobile}")`,
             "--hero-bg": `url(${heroUrl})`,
             "--earth-bg": `url(${earthUrl})`,
           }}
