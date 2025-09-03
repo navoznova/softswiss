@@ -121,62 +121,62 @@ function App() {
         </section>
 
         {/* Offers */}
-        <section class="offers" aria-labelledby="offers-title">
-          <h2 class="offers__title" id="offers-title">
+        <section className="offers" aria-labelledby="offers-title">
+          <h2 className="offers__title" id="offers-title">
             Offers
           </h2>
 
-          <div class="offers__grid">
+          <div className="offers__grid">
             {/* <!-- Large --> */}
-            <article class="card card--lg card--bg-offer-1">
-              <h3 class="card__title">
+            <article className="card card--lg card--bg-offer-1">
+              <h3 className="card__title">
                 Move the borders
                 <br />
                 of reality!
               </h3>
-              <p class="card__subtitle">
+              <p className="card__subtitle">
                 Go on a space adventure - it's possible with us!
               </p>
-              <a href="/" class="btn btn--outline">
+              <a href="/" className="btn btn--outline">
                 Learn more
               </a>
             </article>
 
             {/* <!-- Small left --> */}
-            <article class="card card--bg-offer-2">
-              <h3 class="card__title">
+            <article className="card card--bg-offer-2">
+              <h3 className="card__title">
                 Space is not
                 <br />
                 just stars and planets
               </h3>
-              <p class="card__subtitle">Go on a space adventure</p>
-              <a href="/" class="btn btn--outline">
+              <p className="card__subtitle">Go on a space adventure</p>
+              <a href="/" className="btn btn--outline">
                 Learn more
               </a>
             </article>
 
             {/* <!-- Small right --> */}
-            <article class="card card--bg-offer-3">
-              <h3 class="card__title">
+            <article className="card card--bg-offer-3">
+              <h3 className="card__title">
                 For those
                 <br />
                 who dream of stars
               </h3>
-              <p class="card__subtitle">Our offer: make your dream come true</p>
-              <a href="/" class="btn btn--outline">
+              <p className="card__subtitle">Our offer: make your dream come true</p>
+              <a href="/" className="btn btn--outline">
                 Learn more
               </a>
             </article>
 
             {/* <!-- Large bottom --> */}
-            <article class="card card--lg card--bg-offer-4">
-              <h3 class="card__title">
+            <article className="card card--lg card--bg-offer-4">
+              <h3 className="card__title">
                 Fulfill your
                 <br />
                 fantastic dreams
               </h3>
-              <p class="card__subtitle">Space has never been so close</p>
-              <a href="/" class="btn btn--outline">
+              <p className="card__subtitle">Space has never been so close</p>
+              <a href="/" className="btn btn--outline">
                 Learn more
               </a>
             </article>
